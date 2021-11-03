@@ -3,18 +3,19 @@ print("홀짝 게임을 시작합니다")
 
 import random
 a = random.randint(1,10)
-my =input("짝 또는 홀을 입력하세요")
-print(my)
+b =input("짝 또는 홀을 입력하세요")
+print("입력된 값은")
+print(b)
 
-b = ""
+c = ""
 if a % 2 == 0:
     print("결과는 짝")
-    b = "짝"
+    c = "짝"
 else:
     print("결과는 홀")
-    b = "홀"
+    c = "홀"
 
-if my == b:
+if b == c:
     print("맞다 통과")
 
 else:
