@@ -8,7 +8,7 @@ print("입력된 값은")
 print(B)
 
 C = ""
-if a % 2 == 0:
+if A % 2 == 0:
     print("결과는 짝")
     C = "짝"
 else:
