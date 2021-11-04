@@ -1,4 +1,5 @@
-"""print("오징어게임에 오신 것을 환영합니다")
+"""
+print("오징어게임에 오신 것을 환영합니다")
 print("홀짝 게임을 시작합니다")
 import random
 a = random.randint(1,10)
@@ -20,7 +21,8 @@ for i in range(2):
         else:
             print("틀림 빵!")
     else:
-        print("잘못 입력 다시 입력해라")"""
+        print("잘못 입력 다시 입력해라")
+"""
 
         
 print("오징어 게임에 오신 것을 환영합니다")
